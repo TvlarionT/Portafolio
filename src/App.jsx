@@ -1,14 +1,10 @@
-import TaskList from "./components/TaskList";
-import TaskForm from "./components/TaskForm";
-
-import { useEffect, useState } from "react";
+import Cabecera from "./components/Cabecera";
 
 function App() {
   return (
-    <>
-      <TaskList/>
-      <TaskForm/>
-    </>
+    <div>
+      <Cabecera />
+    </div>
   );
 }
 
