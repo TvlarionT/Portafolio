@@ -2,7 +2,7 @@
   export function rotateOnMouseMove(element) {
     let intervalId;
   
-    const initialAngle = 0.4; // establece el ángulo inicial aquí
+    const initialAngle = 0.3; // establece el ángulo inicial aquí
   
     function startRotation() {
       intervalId = setInterval(() => {
